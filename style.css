@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+    /* background-image: url('tkt.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.background-img {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.ticket-section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="date"], input[type="submit"],#date,input[type="button"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#query{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#date{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: calc(105% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #f32c0d;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.message{
+    width:100%;
+    position:relative;
+    margin-bottom:60px;
+    display:flex;
+    justify-content:center;
+}
+
+.message .sucess{
+    font-size: 20px;
+    color:green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}  
+
+.message .danger{
+font-size:20px;
+color:red;
+position:absolute;
+transition:.3s;
+animation:buttons .4s linear;
+display: none;
+}
+
+
+@keyframes buttons{
+0%{
+    transform:scale(0.1)
+}
+50%{
+    transform:scale(0.5)
+}
+100%{
+transform: scale(1)
+}
+}
