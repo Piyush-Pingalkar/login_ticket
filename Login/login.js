@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (username === adminUsername && password === adminPassword) {
             alert("Login successful!");
             // Redirect to the specified port
-            window.location.href = "http://localhost:3000/";
+            window.location.href = "https://ticketintool.onrender.com/adminpanel";
         } else {
             alert("Invalid username or password. Please try again.");
         }
