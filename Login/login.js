@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const adminUsername = "admin";
         const adminPassword = "admin123";
 
+
+            
         if (username === adminUsername && password === adminPassword) {
             alert("Login successful!");
             // Redirect to the specified port
